@@ -218,7 +218,7 @@ footer .footer_column p {
 	margin-left: 20px;
 	margin-right: 20px;
 }
-.button {
+a.button {
 	width: 200px;
 	margin-top: 50px;
 	margin-right: auto;
@@ -238,11 +238,15 @@ footer .footer_column p {
 	color: #ffffff;
 	transition: all 0.3s linear;
 }
-.button a{text-decoration: none}
-.button a:link { color: #ffffff; }
-.button a:visited { color: #ffffff; }
-.button a:hover { color: #ffffff; }
-.button a:active { color: #ffffff; }
+a.button {
+	text-decoration: none;
+	display: block;
+}
+a.button:link { color: #ffffff; }
+a.button:visited { color: #ffffff; }
+a.button:hover { color: #ffffff; }
+a.button:active { color: #ffffff; }
+
 .button:hover {
 	background-color: #CC8500;
 	color: #ffffff;
